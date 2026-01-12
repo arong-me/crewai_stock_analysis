@@ -1,9 +1,7 @@
 # 手把手教你如何开一个AI炒股公司
 AI发展至今，已经在各个领域产生了深远的影响。特别是大模型的发展，让我们可以做到多个AI协同，共同完成一件事，从而有效提供工作效率。
 
-一个典型的场景在于，可以简单利用AI进行炒股，让每个AI固定一种角色，然后分析给定的股票公司。而且AI可以全年365天无休的帮你分析，你只需要出点电费就可以了。真是资本家看了落泪
-
-![alt text](./pic/image.png)
+一个典型的场景在于，可以简单利用AI进行炒股，让每个AI固定一种角色，然后分析给定的股票公司。而且AI可以全年365天无休的帮你分析，
 
 这个AI炒股公司主要配备了三个员工，每个员工有不同的设定技能：
 - 最佳财务分析师
@@ -116,41 +114,4 @@ AI发展至今，已经在各个领域产生了深远的影响。特别是大模
 
 ![alt text](./pic/image-17.png)
 
-果然AI比我们这种打工人有激情多了，这种为了目标向前进发，反而显得我这个公司老板不近人情。
 
-![alt text](./pic/image-18.png)
-
-
-
-# 手把手设置步骤
-具体的代码比较简单，代码已经上传到github上，感兴趣的可以下载下来尝试一下：
-
-> https://github.com/llq20133100095/crewai_stock_analysis
-
-首先需要安装对应的python包：
-> pip install -r requirment.txt
-
-然后需要申请几个关键的api key，然后填写到“.env.example”文件中。
-- **SERPER_API_KEY**：用来进行谷歌搜索，可以在几秒的时间返回对应结果
-- **SEC_API_API_KEY**：一个存储了SEC EDGAR 文件的数据库，只要在美国上市的公司都必须进行电子化
-- **OPENAI_API_KEY**：调用chatgpt接口，用来帮助总结文章内容
-
-其中openai的api key，这个网上教程已经有很多了。
-
-而SERPER_API_KEY的设置，可以去到“serper.dev”网站
-
-![alt text](./pic/image-19.png)
-
-进入控制台后，可以看到对应的api key：
-
-![alt text](./pic/image-20.png)
-
-SEC_API_API_KEY的设置，则需要去到“sec-api.io”网站，注册完成后也可以看到对应的api key，然后填入到文件里面即可
-
-![alt text](./pic/image-21.png)
-
-经过上面的设置，大部分应该能把程序跑起来。赶快试试这个AI炒股公司，辅助你走上人生巅峰
-
-以上就是本期的所有内容了，我是leo，我们下期再见～
-
-![alt text](./pic/qrcode_for_gh_f4f620aeff8d_258.jpg)
